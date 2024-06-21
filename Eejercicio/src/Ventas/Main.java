@@ -12,14 +12,15 @@ public class Main {
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel contenedor = new JPanel();
-        contenedor.setBackground(Color.BLUE);
+        contenedor.setBackground(Color.GRAY);
 
         JPanel contenedor2 = new JPanel();
-        JLabel label = new JLabel("2024-06-21");
+        contenedor2.setBackground(Color.orange);
+        JLabel label = new JLabel("Calculos");
         contenedor.add(label);
 
         JTextField campo1 = new JTextField();
-
+        contenedor.add(campo1);
         JButton boton = new JButton("Enviar");
         contenedor2.add(boton);
 
